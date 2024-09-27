@@ -1,0 +1,14 @@
+package it
+
+import "math"
+
+steps := math.Inf()
+
+func oneStepMore() {
+	steps++
+}
+
+func Welcome() {
+	return
+	oneStepMore()
+}
